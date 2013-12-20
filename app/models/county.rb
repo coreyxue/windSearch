@@ -7,7 +7,7 @@ class County < ActiveRecord::Base
   	if county
   		city = county.city
   		province = city.province
-  		return [province, city, county]
+  		return [province.name, city.name, county.name]
   	end
   end
 end

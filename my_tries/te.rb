@@ -1,4 +1,4 @@
-f = File.open("./Provinces.xml")
+f = File.open("./db/Provinces.xml")
 f.lines.each do |line|
 	if line =~ /ID=/
 		a=line.split("\"")
@@ -7,7 +7,7 @@ f.lines.each do |line|
 	end
 end
 f.close
-f = File.open("./Cities.xml")
+f = File.open("./db/Cities.xml")
 f.lines.each do |line|
 	if line =~ /ID=/
 		a=line.split("\"")
@@ -18,7 +18,7 @@ f.lines.each do |line|
 	end
 end
 f.close
-f = File.open("./Districts.xml")
+f = File.open("./db/Districts.xml")
 f.lines.each do |line|
 	if line =~ /ID=/
 		a=line.split("\"")
