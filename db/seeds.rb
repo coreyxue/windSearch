@@ -41,4 +41,3 @@ f.lines.each do |line|
 		city.county.create(:name=>a[3])
 	end
 end
-f.close=end
