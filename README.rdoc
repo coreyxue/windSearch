@@ -1,2 +1,3 @@
 === windSearch
 This project is used for gather data of Chinese wind powered stations.
+This repository has been abandoned. We continued work in https://github.com/chuanyu526/windPower
